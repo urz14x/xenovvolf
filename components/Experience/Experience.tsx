@@ -9,7 +9,7 @@ export default function Experience({
   titleExp: string;
   year: string;
   tag: string;
-  children: ReactNode;
+  children?: ReactNode;
 }) {
   return (
     <>
